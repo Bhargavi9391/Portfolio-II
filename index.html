@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styling.css">
+    <script defer src="scripting.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h2 class="logo"><span class="my-text">My</span> <span class="portfolio-text">Portfolio</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://drive.google.com/file/d/1O42_x31tp9XvUNUq0k-AdyYMps9UOtxy/view?usp=drivesdk" 
+                       target="_blank" 
+                       class="resume-link">
+                    Resume
+                </a></li>
+                <li><a href="mailto:bhargavijaddu06@gmail.com">Mail</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Hello, I'm <span class="highlight">Jaddu Bhargavi</span></h1>
+            <p class="fade-in">A Passionate Web Developer</p>
+            <a href="https://www.linkedin.com/in/jaddu-bhargavi-75349b27b/" target="_blank" class="btn fade-in">View My LinkedIn Profile</a>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p><strong>Aspiring Software Developer | 3rd-Year Student | MERN Stack Enthusiast</strong></p>
+        <p>
+            Hi! I’m currently a 3rd-year student with a solid foundation in <strong>C and Java</strong>. 
+            I have hands-on experience with the <strong>MERN stack</strong> (MongoDB, Express, React, Node.js). 
+            My passion for coding and problem-solving drives me to constantly improve my skills.
+        </p>
+        <p>
+            As a fresher, I’m eager to apply my knowledge to real-world projects, contribute to 
+            innovative teams, and expand my expertise in the tech industry.
+        </p>
+        <p>
+            I look forward to connecting with fellow tech enthusiasts, learning from experienced professionals, 
+            and growing in this ever-evolving field!
+        </p>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="animated-title">My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="startalk.png" alt="Social Media Platform">
+                <h3>Social Media Platform</h3>
+                <p>A feature-rich social media platform with user authentication, posts, comments, and more.</p>
+                <a href="https://projectk-main-3.onrender.com/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="lndingpage.png" alt="Landing Page">
+                <h3>Landing Page</h3>
+                <p>A beautiful and responsive landing page design.</p>
+                <a href="https://bhargavi9391.github.io/Landing-page/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="moviesapp.png" alt="Movies App">
+                <h3>Movies App</h3>
+                <p>A movie search and display application with ratings.</p>
+                <a href="https://bhargavi9391.github.io/Movies/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="login.png" alt="Login Form">
+                <h3>Login Form</h3>
+                <p>A stylish login form with animations and validations.</p>
+                <a href="https://bhargavi9391.github.io/Login-Form-2/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="mcq.png" alt="MCQ Project">
+                <h3>MCQ Quiz</h3>
+                <p>An interactive multiple-choice quiz application.</p>
+                <a href="https://bhargavi9391.github.io/MCQ-Project/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="elearning.png" alt="elearning">
+                <h3>E-learning platform</h3>
+                <p>An interactive multiple-choice quiz application designed to enhance learning through engaging quizzes.</p>
+                <a href="https://bhargavi9391.github.io/E-learning3/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="tax.png" alt="taxcalulator">
+                <h3>Tax-calculator</h3>
+                <p> A simple and efficient tool to calculate taxes accurately based on user inputs.</p>
+                <a href="https://bhargavi9391.github.io/tax/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="todos.png" alt="todos">
+                <h3>Todos-list</h3>
+                <p>  A user-friendly task management app to add, track, and organize daily tasks efficiently.</p>
+                <a href="https://bhargavi9391.github.io/todos/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="30days.png" alt="30days">
+                <h3>30d X 30 timetable</h3>
+                <p>A structured 30-day learning planner to help users stay organized and achieve their study goals effectively.</p>
+                <a href=" https://bhargavi9391.github.io/30d-X30T/" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="confirmationMessage" class="hidden">✅ Message Submitted Successfully!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jaddu Bhargavi. All rights reserved.</p>
+    </footer>
